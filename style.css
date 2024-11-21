@@ -46,10 +46,11 @@ strong {
 }
 
 .intro-chunk {
-  max-width: 336px;
+  max-width: 410px;
 }
 
-.intro-chunk p {
+p {
+  font-size: 1.25rem;
   line-height: 30px;
 }
 
