@@ -48,13 +48,14 @@ strong {
 }
 
 .card {
+  margin: 0 -24px;
   padding: 8px 24px 32px 24px;
   background-color: white;
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .indented-heading {
-  margin-left: -8px;
+  margin-left: -32px;
   width: fit-content;
   padding: 16px 32px;
   background: hsl(45, 100%, 50%);
