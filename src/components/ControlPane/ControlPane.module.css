@@ -10,6 +10,9 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  /* TODO: I am not 100% sure. A thin margin is visible at the bottom. */
+  white-space: nowrap;
+  overflow-x: auto;
 }
 
 .title {

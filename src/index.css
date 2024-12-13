@@ -30,3 +30,9 @@ body {
   padding: 0;
   border: 0;
 }
+
+
+:root {
+  --main-top-padding: 128px;
+  --max-width-wrapper-lateral-padding: 32px;
+}
