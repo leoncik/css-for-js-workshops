@@ -10,9 +10,24 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
-  /* TODO: I am not 100% sure. A thin margin is visible at the bottom. */
   white-space: nowrap;
   overflow-x: auto;
+  /* Found a trick to add a padding below the scroll-bar */
+  border: 4px solid white;
+}
+
+.controlPane::-webkit-scrollbar {
+  height: 8px;
+}
+
+.controlPane::-webkit-scrollbar-track {
+  background-color: hsl(0deg 0% 98.04%);
+}
+
+.controlPane::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: hsl(0deg 0% 75.69%); 
 }
 
 .title {
