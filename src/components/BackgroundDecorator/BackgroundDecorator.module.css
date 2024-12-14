@@ -1,7 +1,7 @@
 .background {
     background-color: hsl(195deg, 20%, 86%);
-    height: 500px;
-    width: 40%;
+    height: 40%;
+    width: 100%;
     z-index: -1;
     position: fixed;
     bottom: 0;
