@@ -59,7 +59,11 @@
     position: absolute;
     bottom: -450px;
     left: 0;
-    padding: 0 16px;
+    /* For some reason, it seems that the right padding has no effect in an overflowing container.
+       I chose to use a transparent border to get the desired visual. 
+    */
+    border-right: 8px solid transparent;
+    padding: 8px;
   }
 
   .controlColumnWrapper::-webkit-scrollbar {
