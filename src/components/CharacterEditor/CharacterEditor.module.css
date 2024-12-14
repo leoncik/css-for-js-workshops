@@ -35,3 +35,47 @@
 .controlColumn {
   max-width: 50%;
 }
+
+@media screen and (max-width: 425px) {
+
+  .characterEditor {
+    padding-top: 32px;
+  }
+  
+  .header {
+    max-width: unset;
+  }
+
+  /*
+      Anchors the controlColumnWrapper 
+   */
+  .maxWidthWrapper {
+    position: relative;
+  }
+
+  .controlColumnWrapper {
+    width: 100%;
+    overflow-x: auto;
+    position: absolute;
+    bottom: -450px;
+    left: 0;
+    padding: 0 16px;
+  }
+
+  .controlColumnWrapper::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+
+  .controlColumn {
+    display: flex;
+    gap: 16px;
+  }
+
+  .characterWrapper {
+    position: unset;
+    inset: 0;
+    margin: auto;
+    pointer-events: none;
+  }
+}
